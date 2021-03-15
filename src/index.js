@@ -1,5 +1,4 @@
 module.exports = function toReadable (number) {
-    module.exports = function toReadable (number) {
     const word={
         pr:['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'],
         ds:['twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety','hundred']
@@ -47,6 +46,4 @@ module.exports = function toReadable (number) {
          rez=word.pr[number];
      }
      return rez;
-}
-  
 }
